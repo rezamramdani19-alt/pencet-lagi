@@ -60,7 +60,7 @@ showBalloon();
 
 function showBalloon(){
 
-  /* JIKA SUDAH 17 */
+  /* JIKA SUDAH 24 */
 
   if(current > age){
 
