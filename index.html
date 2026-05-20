@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Balloon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- MAIN -->
+  <section id="mainScene">
+
+    <h1>
+      Seseorang Mengirimimu Balon 🎈
+    </h1>
+
+    <div id="balloonContainer"></div>
+
+    <div id="confettiContainer"></div>
+
+    <p>
+      Tekan balonnya untuk membuka
+    </p>
+
+  </section>
+
+  <!-- POPUP -->
+  <section id="popupScene">
+
+    <div class="popupBox">
+
+      <h2>
+        Hari Ini Adalah Harimu 🎂
+      </h2>
+
+      <p>
+        Selamat datang di umur baru ✨
+      </p>
+
+      <button id="continueBtn">
+        Lanjutkan
+      </button>
+
+    </div>
+
+  </section>
+
+  <!-- FINAL -->
+  <section id="finalScene">
+
+    <div class="firework fire1"></div>
+    <div class="firework fire2"></div>
+    <div class="firework fire3"></div>
+
+    <div class="finalContent">
+
+      <h1>
+        Selamat Ulang Tahun 🎀
+      </h1>
+
+      <!-- CAKE -->
+      <div class="cake">
+
+        <div class="cakeTop"></div>
+
+        <div class="cakeBody"></div>
+
+        <div class="candle"></div>
+
+        <div class="flame"></div>
+
+      </div>
+
+      <!-- VIDEO -->
+      <video
+        id="birthdayVideo"
+        controls
+        autoplay
+        muted
+        loop
+      >
+        <source src="IMG_6235.MOV" type="video/mp4">
+      </video>
+
+      <!-- MESSAGE -->
+      <div class="message">
+        Hari ini bukan cuma tentang bertambah usia,
+        tapi tentang semua perjuangan, mimpi,
+        dan cerita yang berhasil dilewati ✨
+
+        Semoga tahun ini dipenuhi kebahagiaan,
+        kesehatan, dan hal-hal indah 💖
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SOUND -->
+  <audio id="popSound">
+    <source src="universfield-party-balloon-pop-323588.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
