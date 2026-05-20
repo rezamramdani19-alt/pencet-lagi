@@ -18,7 +18,7 @@ document.getElementById("popSound");
 
 /* TOTAL BALON */
 
-const age = 24;
+const age = 17;
 
 /* NOMOR SEKARANG */
 
@@ -60,7 +60,7 @@ showBalloon();
 
 function showBalloon(){
 
-  /* JIKA SUDAH 24 */
+  /* JIKA SUDAH 17 */
 
   if(current > age){
 
